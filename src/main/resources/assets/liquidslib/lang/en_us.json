@@ -3,5 +3,7 @@
   "item.liquidslib.hot_rock": "Hot Rock",
 
   "block.liquidslib.hot_cobblestone": "Hot Cobblestone",
-  "block.liquidslib.cobbled_cobblestone": "Cobbled Cobblestone"
+  "block.liquidslib.cobbled_cobblestone": "Cobbled Cobblestone",
+
+  "creativetab.liquidslib.liquids_library_tab": "Liquids Library"
 }
