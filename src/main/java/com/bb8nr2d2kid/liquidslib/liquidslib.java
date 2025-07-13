@@ -1,4 +1,4 @@
-package com.icloud.bb8nr2d2kid.liquidslib;
+package com.bb8nr2d2kid.liquidslib;
 
 import org.slf4j.Logger;
 
