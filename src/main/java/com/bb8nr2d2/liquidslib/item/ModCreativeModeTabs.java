@@ -18,7 +18,7 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> LIQUIDS_LIBRARY_TAB = CREATIVE_MODE_TAB.register("liquids_library_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ROCK.get()))
-                    //.withTabsBefore(ResourceLocation.fromNamespaceAndPath(LiquidsLib.MODID, "liquids_library_tab"))
+                    //.withTabsBefore(ResourceLocation.fromNamespaceAndPath(LiquidsLib.MOD_ID, "liquids_library_tab"))
                     .title(Component.translatable("creativetab.liquidslib.liquids_library_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ROCK);
