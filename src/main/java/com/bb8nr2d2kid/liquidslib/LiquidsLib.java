@@ -68,6 +68,7 @@ public class LiquidsLib {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.ROCK);
+            event.accept(ModItems.HOT_ROCK);
         }
     }
 
