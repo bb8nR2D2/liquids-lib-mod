@@ -1,4 +1,4 @@
-package com.bb8nr2d2kid.liquidslib;
+package com.bb8nr2d2.liquidslib;
 
 import java.util.List;
 import java.util.Set;

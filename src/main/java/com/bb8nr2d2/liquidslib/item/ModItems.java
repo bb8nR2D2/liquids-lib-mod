@@ -1,6 +1,6 @@
-package com.bb8nr2d2kid.liquidslib.item;
+package com.bb8nr2d2.liquidslib.item;
 
-import com.bb8nr2d2kid.liquidslib.LiquidsLib;
+import com.bb8nr2d2.liquidslib.LiquidsLib;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;

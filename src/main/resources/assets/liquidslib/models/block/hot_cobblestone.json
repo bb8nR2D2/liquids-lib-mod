@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "liquidslib:block/hot_cobblestone"
+  }
+}
