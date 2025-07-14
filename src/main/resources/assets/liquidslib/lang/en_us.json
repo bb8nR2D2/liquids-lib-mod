@@ -1,6 +1,7 @@
 {
   "item.liquidslib.rock": "Rock",
   "item.liquidslib.hot_rock": "Hot Rock",
+  "item.liquidslib.copper_chisel": "Copper Chisel",
 
   "block.liquidslib.hot_cobblestone": "Hot Cobblestone",
   "block.liquidslib.cobbled_cobblestone": "Cobbled Cobblestone",
