@@ -21,7 +21,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> HOT_COBBLESTONE = registerBlock("hot_cobblestone",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+                    .strength(1.5f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final DeferredBlock<Block> COBBLED_COBBLESTONE = registerBlock("cobbled_cobblestone",
             () -> new Block(BlockBehaviour.Properties.of()

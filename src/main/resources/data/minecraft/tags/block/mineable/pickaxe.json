@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "liquidslib:cobbled_cobblestone",
+    "liquidslib:hot_cobblestone"
+  ]
+}
