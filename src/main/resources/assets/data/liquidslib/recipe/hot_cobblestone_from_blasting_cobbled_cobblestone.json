@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 800,
+  "experience": 2.5,
+  "group": "liquidslib:hot_cobblestone",
+  "ingredient": {
+    "item": "liquidslib:cobbled_cobblestone"
+  },
+  "result" : {
+    "id": "liquidslib:hot_cobblestone"
+  }
+}
