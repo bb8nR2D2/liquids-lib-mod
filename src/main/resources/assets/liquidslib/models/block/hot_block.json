@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "down": "liquidslib:block/hot_block_side",
+    "east": "liquidslib:block/hot_block_side",
+    "north": "liquidslib:block/hot_block_side",
+    "particle": "liquidslib:block/hot_block_side",
+    "south": "liquidslib:block/hot_block_side",
+    "up": "liquidslib:block/hot_block_top",
+    "west": "liquidslib:block/hot_block_side"
+  }
+}

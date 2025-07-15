@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "liquidslib:copper_chisel",
+  "key": {
+    "H": {
+      "item": "liquidslib:hot_rock"
+    },
+    "C": {
+      "tag": "c:ingots/copper"
+    },
+    "A": {
+      "tag": "c:gems/amethyst"
+    },
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "pattern": [
+    " AC",
+    "IHA",
+    "SI "
+  ],
+  "result": {
+    "count": 1,
+    "id": "liquidslib:copper_chisel"
+  }
+}

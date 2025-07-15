@@ -1,6 +1,7 @@
 package com.bb8nr2d2.liquidslib.block;
 
 import com.bb8nr2d2.liquidslib.LiquidsLib;
+import com.bb8nr2d2.liquidslib.block.custom.HotBlock;
 import com.bb8nr2d2.liquidslib.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -26,6 +27,10 @@ public class ModBlocks {
     public static final DeferredBlock<Block> COBBLED_COBBLESTONE = registerBlock("cobbled_cobblestone",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> HOT_BLOCK = registerBlock("hot_block",
+            () -> new HotBlock(BlockBehaviour.Properties.of()
+                    .strength(2.5f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "liquidslib:iron_chisel",
+  "key": {
+    "H": {
+      "item": "liquidslib:hot_rock"
+    },
+    "A": {
+      "tag": "c:gems/amethyst"
+    },
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "pattern": [
+    " AI",
+    "IHA",
+    "SI "
+  ],
+  "result": {
+    "count": 1,
+    "id": "liquidslib:iron_chisel"
+  }
+}

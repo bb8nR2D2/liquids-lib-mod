@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "liquidslib:hot_block",
+  "key": {
+    "M": {
+      "item": "minecraft:magma_block"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "G": {
+      "item": "minecraft:tinted_glass"
+    }
+  },
+  "pattern": [
+    "IWI",
+    "GMG",
+    "IGI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "liquidslib:hot_block"
+  }
+}

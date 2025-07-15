@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "liquidslib:block/hot_block"
+    }
+  }
+}

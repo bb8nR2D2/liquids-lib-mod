@@ -1,5 +1,6 @@
 package com.bb8nr2d2.liquidslib.item.custom;
 
+import com.bb8nr2d2.liquidslib.block.ModBlocks;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
@@ -24,8 +25,7 @@ public class ChiselItem extends Item {
                 Blocks.DEEPSLATE, Blocks.POLISHED_DEEPSLATE,
                 Blocks.TUFF, Blocks.POLISHED_TUFF,
                 Blocks.POLISHED_TUFF, Blocks.TUFF_BRICKS,
-                Blocks.TUFF_BRICKS, Blocks.CHISELED_TUFF,
-                Blocks.CHISELED_TUFF, Blocks.CHISELED_TUFF_BRICKS
+                Blocks.COBBLESTONE, ModBlocks.COBBLED_COBBLESTONE.get()
             );
 
 

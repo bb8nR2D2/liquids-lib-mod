@@ -2,9 +2,16 @@
   "item.liquidslib.rock": "Rock",
   "item.liquidslib.hot_rock": "Hot Rock",
   "item.liquidslib.copper_chisel": "Copper Chisel",
+  "item.liquidslib.flint_chisel": "Flint Chisel",
+  "item.liquidslib.iron_chisel": "Iron Chisel",
+  "item.liquidslib.gold_chisel": "Gold Chisel",
+  "item.liquidslib.diamond_chisel": "Diamond Chisel",
+  "item.liquidslib.netherite_chisel": "Netherite Chisel",
+
 
   "block.liquidslib.hot_cobblestone": "Hot Cobblestone",
   "block.liquidslib.cobbled_cobblestone": "Cobbled Cobblestone",
+  "block.liquidslib.hot_block": "Hot Block",
 
   "creativetab.liquidslib.liquids_library_tab": "Liquids Library"
 }
