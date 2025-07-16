@@ -23,14 +23,25 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ROCK);
                         output.accept(ModItems.HOT_ROCK);
+                        output.accept(ModItems.HOTTER_ROCK);
+                        output.accept(ModItems.HOTTEST_ROCK);
+                        output.accept(ModItems.MAGMA_ROCK);
+
+                        output.accept(ModItems.WHITE_CHOCOLATE_BAR);
+                        output.accept(ModItems.MILK_CHOCOLATE_BAR);
+                        output.accept(ModItems.DARK_CHOCOLATE_BAR);
+
                         output.accept(ModItems.FLINT_CHISEL);
                         output.accept(ModItems.COPPER_CHISEL);
                         output.accept(ModItems.IRON_CHISEL);
                         output.accept(ModItems.GOLD_CHISEL);
                         output.accept(ModItems.DIAMOND_CHISEL);
                         output.accept(ModItems.NETHERITE_CHISEL);
+
                         output.accept(ModBlocks.COBBLED_COBBLESTONE);
                         output.accept(ModBlocks.HOT_COBBLESTONE);
+                        output.accept(ModBlocks.HOTTER_COBBLESTONE);
+                        output.accept(ModBlocks.HOTTEST_COBBLESTONE);
                         output.accept(ModBlocks.HOT_BLOCK);
 
                     }).build());

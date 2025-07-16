@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "liquidslib:hottest_rock",
+  "ingredients": [
+    {
+      "item": "liquidslib:hottest_cobblestone"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "liquidslib:hottest_rock"
+  }
+}

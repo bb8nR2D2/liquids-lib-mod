@@ -23,6 +23,12 @@ public class ModBlocks {
     public static final DeferredBlock<Block> HOT_COBBLESTONE = registerBlock("hot_cobblestone",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(1.5f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> HOTTER_COBBLESTONE = registerBlock("hotter_cobblestone",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> HOTTEST_COBBLESTONE = registerBlock("hottest_cobblestone",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.5f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final DeferredBlock<Block> COBBLED_COBBLESTONE = registerBlock("cobbled_cobblestone",
             () -> new Block(BlockBehaviour.Properties.of()

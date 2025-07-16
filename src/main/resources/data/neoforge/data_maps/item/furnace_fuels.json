@@ -1,0 +1,19 @@
+{
+  "values" : {
+    "liquidslib:hottest_rock" : {
+      "burn_time": 1000
+    },
+    "liquidslib:hotter_rock" : {
+      "burn_time": 800
+    },
+    "liquidslib:magma_rock" : {
+      "burn_time": 1200
+    },
+    "liquidslib:hotter_cobblestone" : {
+      "burn_time": 8000
+    },
+    "liquidslib:hottest_cobblestone" : {
+      "burn_time": 10000
+    }
+  }
+}

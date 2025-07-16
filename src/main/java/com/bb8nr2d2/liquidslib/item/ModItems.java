@@ -2,6 +2,8 @@ package com.bb8nr2d2.liquidslib.item;
 
 import com.bb8nr2d2.liquidslib.LiquidsLib;
 import com.bb8nr2d2.liquidslib.item.custom.ChiselItem;
+import com.bb8nr2d2.liquidslib.item.custom.FuelItem;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -14,6 +16,19 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> HOT_ROCK = ITEMS.register("hot_rock",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HOTTER_ROCK = ITEMS.register("hotter_rock",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> HOTTEST_ROCK = ITEMS.register("hottest_rock",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MAGMA_ROCK = ITEMS.register("magma_rock",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> MILK_CHOCOLATE_BAR = ITEMS.register("milk_chocolate_bar",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.MILK_CHOCOLATE_BAR)));
+    public static final DeferredItem<Item> WHITE_CHOCOLATE_BAR = ITEMS.register("white_chocolate_bar",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.WHITE_CHOCOLATE_BAR)));
+    public static final DeferredItem<Item> DARK_CHOCOLATE_BAR = ITEMS.register("dark_chocolate_bar",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.DARK_CHOCOLATE_BAR)));
 
     public static final DeferredItem<Item> COPPER_CHISEL = ITEMS.register("copper_chisel",
             () -> new ChiselItem(new Item.Properties().durability(418)));

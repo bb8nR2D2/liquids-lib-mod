@@ -1,6 +1,10 @@
 {
   "item.liquidslib.rock": "Rock",
   "item.liquidslib.hot_rock": "Hot Rock",
+  "item.liquidslib.hotter_rock": "Hotter Rock",
+  "item.liquidslib.hottest_rock": "Hottest Rock",
+  "item.liquidslib.magma_rock": "Magma Rock",
+
   "item.liquidslib.copper_chisel": "Copper Chisel",
   "item.liquidslib.flint_chisel": "Flint Chisel",
   "item.liquidslib.iron_chisel": "Iron Chisel",
@@ -8,9 +12,14 @@
   "item.liquidslib.diamond_chisel": "Diamond Chisel",
   "item.liquidslib.netherite_chisel": "Netherite Chisel",
 
+  "item.liquidslib.milk_chocolate_bar": "Milk Chocolate Bar",
+  "item.liquidslib.white_chocolate_bar": "White Chocolate Bar",
+  "item.liquidslib.dark_chocolate_bar": "Dark Chocolate Bar",
 
-  "block.liquidslib.hot_cobblestone": "Hot Cobblestone",
   "block.liquidslib.cobbled_cobblestone": "Cobbled Cobblestone",
+  "block.liquidslib.hot_cobblestone": "Hot Cobblestone",
+  "block.liquidslib.hotter_cobblestone": "Hotter Cobblestone",
+  "block.liquidslib.hottest_cobblestone": "Hottest Cobblestone",
   "block.liquidslib.hot_block": "Hot Block",
 
   "creativetab.liquidslib.liquids_library_tab": "Liquids Library"

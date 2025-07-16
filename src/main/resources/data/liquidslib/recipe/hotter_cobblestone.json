@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "liquidslib:hotter_cobblestone",
+  "key": {
+    "#": {
+      "item": "liquidslib:hotter_rock"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "liquidslib:hotter_cobblestone"
+  }
+}

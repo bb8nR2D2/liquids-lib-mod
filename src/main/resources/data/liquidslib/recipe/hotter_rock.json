@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "liquidslib:hotter_rock",
+  "ingredients": [
+    {
+      "item": "liquidslib:hotter_cobblestone"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "liquidslib:hotter_rock"
+  }
+}
