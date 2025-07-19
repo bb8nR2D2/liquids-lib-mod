@@ -4,7 +4,7 @@
   "group": "liquidslib:gold_chisel",
   "key": {
     "H": {
-      "item": "liquidslib:hot_rock"
+      "item": "liquidslib:hotter_rock"
     },
     "C": {
       "tag": "c:ingots/gold"

@@ -3,11 +3,16 @@ package com.bb8nr2d2.liquidslib.item;
 import com.bb8nr2d2.liquidslib.LiquidsLib;
 import com.bb8nr2d2.liquidslib.item.custom.ChiselItem;
 import com.bb8nr2d2.liquidslib.item.custom.FuelItem;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.List;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(LiquidsLib.MODID);
@@ -19,9 +24,21 @@ public class ModItems {
     public static final DeferredItem<Item> HOTTER_ROCK = ITEMS.register("hotter_rock",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> HOTTEST_ROCK = ITEMS.register("hottest_rock",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.liquidslib.hottest_rock.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
     public static final DeferredItem<Item> MAGMA_ROCK = ITEMS.register("magma_rock",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties()) {
+                @Override
+                public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.liquidslib.magma_rock.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            });
 
     public static final DeferredItem<Item> MILK_CHOCOLATE_BAR = ITEMS.register("milk_chocolate_bar",
             () -> new Item(new Item.Properties().food(ModFoodProperties.MILK_CHOCOLATE_BAR)));

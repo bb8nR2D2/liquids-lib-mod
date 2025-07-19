@@ -22,5 +22,13 @@
   "block.liquidslib.hottest_cobblestone": "Hottest Cobblestone",
   "block.liquidslib.hot_block": "Hot Block",
 
-  "creativetab.liquidslib.liquids_library_tab": "Liquids Library"
+  "creativetab.liquidslib.liquids_library_tab": "Liquids Library",
+
+  "tooltip.liquidslib.hot_block.tooltip": "This block can turn rocks to hot rocks",
+
+  "tooltip.liquidslib.chisel.shift_down": "This item can chisel blocks such as cobblestone and stone",
+  "tooltip.liquidslib.chisel.tooltip": "Press §eSHIFT§r for more info",
+
+  "tooltip.liquidslib.hottest_rock.tooltip": "This is one of the hottest rocks in the world!",
+  "tooltip.liquidslib.magma_rock.tooltip": "This rock got so hot, it was burnt to a crisp"
 }

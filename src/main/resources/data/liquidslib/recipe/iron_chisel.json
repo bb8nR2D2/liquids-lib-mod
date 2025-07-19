@@ -4,7 +4,7 @@
   "group": "liquidslib:iron_chisel",
   "key": {
     "H": {
-      "item": "liquidslib:hot_rock"
+      "item": "liquidslib:hotter_rock"
     },
     "A": {
       "tag": "c:gems/amethyst"
