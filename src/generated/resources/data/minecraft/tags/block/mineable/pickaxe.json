@@ -1,0 +1,10 @@
+{
+  "values": [
+    "liquidslib:cobbled_cobblestone",
+    "liquidslib:hot_cobblestone",
+    "liquidslib:hotter_cobblestone",
+    "liquidslib:hottest_cobblestone",
+    "liquidslib:hot_block",
+    "liquidslib:hot_rock_ore"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 1600,
+  "experience": 2.5,
+  "group": "hot_rock",
+  "ingredient": {
+    "item": "liquidslib:cobbled_cobblestone"
+  },
+  "result": {
+    "count": 1,
+    "id": "liquidslib:hot_cobblestone"
+  }
+}

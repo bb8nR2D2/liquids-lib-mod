@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hottest_rock": {
+      "conditions": {
+        "items": [
+          {
+            "items": "liquidslib:hottest_rock"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "liquidslib:hottest_cobblestone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_hottest_rock"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "liquidslib:hottest_cobblestone"
+    ]
+  }
+}

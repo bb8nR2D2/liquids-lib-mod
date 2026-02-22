@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "tag": "c:gems/amethyst"
+    },
+    "C": {
+      "tag": "c:ingots/gold"
+    },
+    "H": {
+      "item": "liquidslib:hotter_rock"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "S": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "pattern": [
+    " AC",
+    "IHA",
+    "SI "
+  ],
+  "result": {
+    "count": 1,
+    "id": "liquidslib:gold_chisel"
+  }
+}

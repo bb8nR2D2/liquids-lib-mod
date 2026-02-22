@@ -1,0 +1,9 @@
+{
+  "values": [
+    "liquidslib:rock",
+    "liquidslib:hot_rock",
+    "liquidslib:hotter_rock",
+    "liquidslib:hottest_rock",
+    "liquidslib:magma_rock"
+  ]
+}

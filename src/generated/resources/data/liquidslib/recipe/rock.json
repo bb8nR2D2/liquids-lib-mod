@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "liquidslib:cobbled_cobblestone"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "liquidslib:rock"
+  }
+}

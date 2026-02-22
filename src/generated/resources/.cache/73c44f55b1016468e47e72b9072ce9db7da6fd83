@@ -1,0 +1,4 @@
+// 1.21.1	2026-02-22T14:03:34.012276	Tags for minecraft:block mod id liquidslib
+d73008b035cdf2dfffd4c27276980ae848fb6027 data/minecraft/tags/block/mineable/pickaxe.json
+7da98018ecfd0f070525cf73a5013e3a3f501fc8 data/minecraft/tags/block/needs_diamond_tool.json
+56520c5fc586bce309d25f06d5c2037f9a1b9145 data/minecraft/tags/block/needs_iron_tool.json

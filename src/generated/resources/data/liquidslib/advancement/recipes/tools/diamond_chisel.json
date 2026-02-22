@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_flint_chisel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "liquidslib:flint_chisel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "liquidslib:diamond_chisel"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_flint_chisel"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "liquidslib:diamond_chisel"
+    ]
+  }
+}

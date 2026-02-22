@@ -1,0 +1,7 @@
+// 1.21.1	2026-02-22T12:49:11.772975	Loot Tables
+76427fee532032520828fad082099520ca72dd62 data/liquidslib/loot_table/blocks/cobbled_cobblestone.json
+3ae7a8e5435ca3631d41a32878021e4d9eb9c2a4 data/liquidslib/loot_table/blocks/hot_block.json
+313252d4dd155f806a3a780edf96ebc16cb17592 data/liquidslib/loot_table/blocks/hot_cobblestone.json
+fcf963b86f4f85fe38cfdda7ce9fac026dd74fa1 data/liquidslib/loot_table/blocks/hot_rock_ore.json
+b09491d0deb565eb973c7998f5c2d929bccc5c76 data/liquidslib/loot_table/blocks/hotter_cobblestone.json
+ae81928fbb0aafc866c0097b125ad33c132fc911 data/liquidslib/loot_table/blocks/hottest_cobblestone.json

@@ -44,6 +44,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.HOTTEST_COBBLESTONE);
                         output.accept(ModBlocks.HOT_BLOCK);
 
+                        output.accept(ModBlocks.HOT_ROCK_ORE);
+
                     }).build());
 
 

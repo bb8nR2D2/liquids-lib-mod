@@ -38,6 +38,10 @@ public class ModBlocks {
             () -> new HotBlock(BlockBehaviour.Properties.of()
                     .strength(2.5f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
+    public static final DeferredBlock<Block> HOT_ROCK_ORE = registerBlock("hot_rock_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.5f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:flint"
+    },
+    "H": {
+      "item": "minecraft:string"
+    },
+    "S": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "pattern": [
+    " CC",
+    " HC",
+    "S  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "liquidslib:flint_chisel"
+  }
+}
